@@ -1,6 +1,6 @@
 {
   "name": "exists-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An npm package to validate if a value exists in the database",
   "main": "src/exist.validator.js",
   "types": "src/exist.validator.d.ts",
