@@ -1,0 +1,13 @@
+# This file is intentionally left blank. 
+
+# Ignore files and directories
+node_modules
+dist
+*.log
+*.tsbuildinfo
+
+# Include files and directories
+src
+tsconfig.json
+package.json
+README.md

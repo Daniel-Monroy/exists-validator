@@ -1,0 +1,28 @@
+{
+  "name": "exists-validator",
+  "version": "1.0.0",
+  "description": "An npm package to validate if a value exists in the database",
+  "main": "src/exist.validator.js",
+  "types": "src/exist.validator.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/exists-validator.git"
+  },
+  "keywords": [
+    "validation",
+    "database",
+    "decorator",
+    "class-validator",
+    "Prisma"
+  ],
+  "author": "Daniel Monroy",
+  "license": "MIT",
+  "dependencies": {
+    "class-validator": "^0.13.1",
+    "prisma": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/class-validator": "^0.13.1",
+    "@types/prisma": "^3.0.0"
+  }
+}
