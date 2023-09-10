@@ -6,8 +6,9 @@
   "types": "src/exist.validator.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/exists-validator.git"
+    "url": "gi+https://github.com/Daniel-Monroy/exists-validator"
   },
+  "homepage": "https://github.com/Daniel-Monroy/exists-validator#readme",
   "keywords": [
     "validation",
     "database",
@@ -15,7 +16,7 @@
     "class-validator",
     "Prisma"
   ],
-  "author": "Daniel Monroy",
+  "author": "Daniel Monroy danielmonroydominguez@gmail.com",
   "license": "MIT",
   "dependencies": {
     "class-validator": "^0.13.1",

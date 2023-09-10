@@ -1,3 +1,5 @@
+## My First Package! ❤️
+
 # exists-validator
 
 This npm package provides a decorator function `Exists` that can be used to validate if a value exists in the database. It uses the `class-validator` library and the Prisma ORM.
@@ -15,10 +17,12 @@ npm install exists-validator
 To use the `Exists` decorator, import it from the package and apply it to the property you want to validate. For example:
 
 ```typescript
-import { Exists } from 'exists-validator';
+import { Exists } from "exists-validator";
 
 class User {
-  @Exists('User', 'email')
+  @Exists("User", "email", {
+    // ...
+  })
   email: string;
 }
 ```
@@ -36,7 +40,7 @@ The `Exists` decorator takes three parameters:
 The `PrismaService` class provides access to the Prisma ORM. To use it, import it from the package and create a new instance:
 
 ```typescript
-import { PrismaService } from 'exists-validator';
+import { PrismaService } from "exists-validator";
 
 const prisma = new PrismaService();
 ```
@@ -49,7 +53,7 @@ const client = prisma.getClient();
 
 ## Contributing
 
-If you find a bug or have a feature request, please open an issue on the [GitHub repository](https://github.com/example/exists-validator). Pull requests are also welcome.
+If you find a bug or have a feature request, please open an issue on the [GitHub repository](https://github.com/Daniel-Monroy/exists-validator). Pull requests are also welcome.
 
 ## License
 
